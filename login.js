@@ -5,7 +5,7 @@ getLogin.addEventListener('click', function(){
     const email = useremail.value;
     const userPass = document.getElementById('password').value;
     if(email==="demo@gmail.com" && userPass === "123"){
-        alert('login succes')
+        window.open('http://127.0.0.1:5500/dashboard.html');
     }
     else{
         alert('you are rong');
